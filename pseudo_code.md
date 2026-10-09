@@ -1,13 +1,11 @@
-/*
-PSEUDO-CODE :
-   -------------
+
     FAIRE
     FAIRE
     Afficher "Entrer une valeur [2-1000] : "
     Saisir valeur_limite
     Vider le buffer
     TANT QUE valeur_limite < 2 OU valeur_limite > 1000
-
+    
       Afficher "Voici la liste des nombres premiers"
       
       POUR nb_premier de 2 à valeur_limite FAIRE
@@ -26,13 +24,12 @@ PSEUDO-CODE :
          FIN SI
       FIN POUR
       Aller à la ligne
-
+    
       FAIRE
          Afficher "Voulez-vous recommencer [O/N] : "
          Saisir menu
          Vider le buffer
       TANT QUE menu != 'O' ET menu != 'N'
-
+    
     TANT QUE menu == 'O'
     Afficher "Fin de programme"
-*/
